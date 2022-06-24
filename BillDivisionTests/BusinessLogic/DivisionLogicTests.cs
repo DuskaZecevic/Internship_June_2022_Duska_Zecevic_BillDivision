@@ -32,6 +32,7 @@ namespace BillDivision.BusinessLogic.Tests
             int indexOfItemThatAnnaDidNotEat = 1;
             int amountCalculatedByTom = 12;
             string expected = "Bon Appetit";
+
             //Act
             string actual = DivisionLogic.BonAppetit(arrayOfPrice, indexOfItemThatAnnaDidNotEat, amountCalculatedByTom);
 

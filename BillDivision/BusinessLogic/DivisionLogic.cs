@@ -11,16 +11,11 @@ namespace BillDivision.BusinessLogic
             int totalAmountForAnnasMeals = 0;
             string message = "Bon Appetit";
             for (int i = 0; i < arrayOfPrices.Length; i++)
-            
                 if (i != indexOfItemThatAnnaDidNotEat)
-                    totalAmountForAnnasMeals += arrayOfPrices[i];
-                
+                    totalAmountForAnnasMeals += arrayOfPrices[i]; 
             if(totalAmountForAnnasMeals == amountCalculatedByTom)
                 return message;
             else return Math.Abs(totalAmountForAnnasMeals-amountCalculatedByTom).ToString();
-               
-
-            
         }
     }
 }
