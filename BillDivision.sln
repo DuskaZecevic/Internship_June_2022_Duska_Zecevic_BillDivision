@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BillDivision", "BillDivision\BillDivision.csproj", "{DAAF1F3D-9017-464B-B124-51EB1D33EE74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BillDivisionTests", "BillDivisionTests\BillDivisionTests.csproj", "{B4F5C0B0-0587-4445-9108-851454A1B912}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DAAF1F3D-9017-464B-B124-51EB1D33EE74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAAF1F3D-9017-464B-B124-51EB1D33EE74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAAF1F3D-9017-464B-B124-51EB1D33EE74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAAF1F3D-9017-464B-B124-51EB1D33EE74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4F5C0B0-0587-4445-9108-851454A1B912}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4F5C0B0-0587-4445-9108-851454A1B912}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4F5C0B0-0587-4445-9108-851454A1B912}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4F5C0B0-0587-4445-9108-851454A1B912}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {01A28492-0732-41E3-9AF5-38DC027D377D}
+	EndGlobalSection
+EndGlobal
